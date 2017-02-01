@@ -1,7 +1,9 @@
 {
 	"name": "macfly/mac-address",
-	"description": "List mac-address of the current system",
+	"description": "List all mac-address of the current system",
+	"keywords": ["mac-address", "windows", "linux"],
 	"type": "library",
+	"license": "BSD-3-Clause",
 	"authors": [
 		{
 			"name": "Charles DELFLY",
