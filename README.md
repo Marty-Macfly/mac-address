@@ -29,7 +29,7 @@ Usage
 require 'vendor/autoload.php';
 
 
-print_r(macaddress\MacAddress::get());
+print_r(Mac\Address::get());
 
 
 ```

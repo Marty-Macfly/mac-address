@@ -1,6 +1,6 @@
 <?php
 
-namespace macaddress\provider;
+namespace Mac\Provider;
 
 interface ProviderInterface
 {

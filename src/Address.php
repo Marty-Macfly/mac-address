@@ -1,15 +1,15 @@
 <?php
 
-namespace macaddress;
+namespace Mac;
 
-class MacAddress
+class Address
 {
 	private static $address 	= null;
 	private static $providers	= [
-															'\macaddress\provider\Getmac',
-															'\macaddress\provider\Ipconfig',
-															'\macaddress\provider\Ifconfig',
-															'\macaddress\provider\Ip',
+															'\Mac\Provider\Getmac',
+															'\Mac\Provider\Ipconfig',
+															'\Mac\Provider\Ifconfig',
+															'\Mac\Provider\Ip',
 															];
 
 	public static function get($refresh = false)
